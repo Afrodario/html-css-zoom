@@ -17,6 +17,14 @@
     border: 1px solid gray;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-between;
+}
+
 /* Regole flexbox */
 .flex {
     display: flex;
@@ -38,4 +46,26 @@ header {
 
 .view i {
     padding-right: 5px;
+}
+
+/* Regole main */
+main {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.window {
+    border: 1px solid red;
+    position: relative;
+}
+
+.username {
+    color: white;
+    border: 1px solid gray;
+    width: 40%;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
