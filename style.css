@@ -1,0 +1,41 @@
+/* Regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    color: white;
+}
+
+.head-btn {
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+/* Regole flexbox */
+.flex {
+    display: flex;
+}
+
+.flex-cen {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Regole header */
+header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.view i {
+    padding-right: 5px;
+}
