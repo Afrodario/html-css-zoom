@@ -18,11 +18,10 @@
 }
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: auto;
     flex-wrap: wrap;
     padding-top: 5%;
-    justify-content: space-between;
 }
 
 /* Regole flexbox */
@@ -56,14 +55,16 @@ main {
 }
 
 .window {
-    border: 1px solid red;
     position: relative;
+    margin: 5px 9px;
 }
 
 .username {
     color: white;
     border: 1px solid gray;
+    padding: 5px;
     width: 40%;
+    font-size: 13px;
     background-color: gray;
     position: absolute;
     left: 0;
