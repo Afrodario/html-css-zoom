@@ -74,9 +74,9 @@ header {
 /* Regole main */
 main {
     background-color: black;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .window {
@@ -102,6 +102,9 @@ footer {
     min-width: 1015px;
     background-color: #1f1f1f;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 nav .btn {
